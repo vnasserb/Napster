@@ -8,7 +8,7 @@ O código presente neste repositório permite que os Peers se conectem a um serv
   - SEARCH_OK (UDP): Obtenção dos Peers que possuem o arquivo que o cliente deseja 
   - UPDATE_OK (UDP): Atualização da lista de arquivos que um determinado Peer possui
 
-- **Cliente**
+- **Peer**
   - JOIN (UDP): Requisição para ter suas informações armazenadas pelo Servidor
   - LEAVE (UDP): Requisição para ter suas informações removidas pelo Servidor
   - SEARCH (UDP): Requisição para solicitar para o Servidor a lista de Peers que possuem um determinado arquivo. Não é uma função específica, sendo que ele ocorre quando o usuário digita “SEARCH” e o nome de um arquivo. 
